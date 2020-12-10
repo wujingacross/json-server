@@ -1,0 +1,17 @@
+{
+  "name": "json-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server index.js",
+    "start:routes": "json-server index.js --routes routes.json",
+    "start:middlewares": "json-server index.js --routes routes.json --middlewares ./middleware.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mockjs": "^1.1.0"
+  }
+}
